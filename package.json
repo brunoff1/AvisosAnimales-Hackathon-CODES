@@ -1,0 +1,31 @@
+{
+  "name": "avisosanimales-hackathon-codes",
+  "version": "1.0.0",
+  "description": "Sam Altman &amp; Co",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "end": "killall -9 node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoff1/AvisosAnimales-Hackathon-CODES.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoff1/AvisosAnimales-Hackathon-CODES/issues"
+  },
+  "homepage": "https://github.com/brunoff1/AvisosAnimales-Hackathon-CODES#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
