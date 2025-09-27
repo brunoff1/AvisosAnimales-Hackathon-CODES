@@ -7,13 +7,11 @@ webRutas.get("/", (req, res)=>{
     return res.json("Paginal inicial")
 });
 
-webRutas.get("/Animales", async (req, res) => {
+webRutas.get("/animales", async (req, res) => {
     try {
         const animales = await Animales.find({});
         if (animales.length === 0) {
-            return res.status(204).send({
-                message: 'Lista vacia'
-            });
+            return res.json("No encontro nada pajin")
         }
         else{
             const lineasTexto = animales.map(animal => 

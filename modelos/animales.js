@@ -34,4 +34,4 @@ const animalesSchema = new mongoose.Schema({
        versionKey:false
     }
 );
-module.exports = mongoose.model("Animales", animalesSchema);
+module.exports = mongoose.model("Animales", animalesSchema, "Perdidos");
